@@ -1,0 +1,40 @@
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+}
+
+.header__item+.header__item {
+    padding-left: 33px;
+}
+
+.header__link {
+    color: #83888F;
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__item:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: black;
+    transition: .3s;
+}
+
+.header__link:hover {
+    color: black;
+}
+
+

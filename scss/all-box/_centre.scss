@@ -1,0 +1,117 @@
+.centre__info {
+    background-color: #2C343E;
+    width: 1280px;
+    height: 577px;
+    margin-top: 200px;
+}
+
+.centre__h4 {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    padding-left: 445px;
+    padding-right: 475.5px;
+    padding-top: 108px;
+}
+
+.centre__h4:hover {
+    color: blue;
+}
+
+.centre__p {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 370px;
+    padding-right: 370px;
+    margin-top: -30px;
+}
+
+.centre__p:hover {
+    color: darkcyan;
+}
+
+.centre__list {
+    list-style: none;
+    display: flex;
+    margin-top: -230px;
+}
+
+.centre__item {
+    border-radius: 8px;
+    background: #0E8784;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    height: 382px;
+    margin-left: 40px;
+    padding-top: 72px;
+
+}
+
+.centre___h5 {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    padding-top: -100px;
+}
+
+.centre__text {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+}
+
+@media only screen and (max-width: 768px) {
+    .centre__info {
+        background-color: #2C343E;
+        max-width: 688px;
+        width: 100%;
+        margin-top: 200px;
+        max-height: 573px;
+    }
+
+    .centre__h4 {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+    }
+
+    .centre__p {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Barlow";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .our__item {
+        display: flex;
+    }
+}
